@@ -15,8 +15,10 @@ const App = (props) => {
 	return (
 		<div>
 			<h1>今天吃什么</h1>
-			<button onClick={renderMenu}>开始随机</button>
-			<p>今天吃: {menu}</p>
+			<button style={{ fontSize: '22px' }}
+				onClick={renderMenu}>开始随机
+			</button>
+			<h3>今天吃: {menu}</h3>
 		</div>
 	)
 };
