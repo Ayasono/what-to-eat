@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
+import './App.css'
 
 const App = (props) => {
 	const [menu, setMenu] = useState('')
@@ -13,7 +14,7 @@ const App = (props) => {
 	}
 
 	return (
-		<div>
+		<div className='App'>
 			<h1>今天吃什么</h1>
 			<button style={{ fontSize: '22px' }}
 				onClick={renderMenu}>开始随机
